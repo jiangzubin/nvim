@@ -1,7 +1,6 @@
 return {
   "voldikss/vim-translator",
   keys = {
-    { "<leader>j", "<Plug>TranslateW", mode = "n", desc = "翻译光标单词" },
     { "<leader>j", "<Plug>TranslateWV", mode = "x", desc = "翻译选中" },
   },
   init = function()
