@@ -4,6 +4,7 @@
 local opt = vim.opt
 opt.cursorline = false
 opt.mouse = ""
+opt.wrap = false
 vim.g.snacks_animate = false
 
 -- 通过 OrbStack 的 mac pbcopy/pbpaste 桥接 macOS 宿主机系统剪贴板。
